@@ -16,8 +16,6 @@ on:
   release:
     types: [created]
   pull_request:
-    branches:
-    - '!master'
 
 env:
   AZURE_WEBAPP_NAME: InsightGitHubTeam5    # set this to your application's name
